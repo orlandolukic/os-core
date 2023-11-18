@@ -1,0 +1,20 @@
+	LST_SLEEP lista;
+
+	lista.put(0,5);
+	lista.put(0,5);
+	lista.put(0,7);
+	lista.put(0,3);
+	lista.put(0,6);
+	lista.put(0,8);
+	lista.put(0,7);
+	lista.put(0,7);
+	lista.put(0,2);
+	lista.put(0,1);
+	lista.put(0,10);
+
+	lista.pisi();
+
+	for (int i=0; i<2; i++)
+		lista.update();
+	printf("\n");
+	lista.pisi();
